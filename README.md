@@ -6,6 +6,15 @@ Language support for [embe](https://github.com/Bananenpro/embe).
 
 - Syntax highlighting
 
+## Installation
+
+- [Download](https://github.com/Bananenpro/vscode-embe/releases/latest) the `*.vsix` file.
+- Open the _Extensions_ tab in VS Code.
+- Press the three dots in the top right corner of the _Extensions_ window.
+- Choose _Install from VSIX…_.
+- Select the downloaded file.
+- Hit _Install_.
+
 ## License
 
 MIT License
