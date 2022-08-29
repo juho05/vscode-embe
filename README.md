@@ -5,8 +5,11 @@ Language support for [embe](https://github.com/Bananenpro/embe).
 ## Features
 
 - Syntax highlighting
+- LSP via [embe-ls](https://github.com/Bananenpro/embe-ls)
 
 ## Installation
+
+Install [embe-ls](https://github.com/Bananenpro/embe-ls#installation) for LSP features.
 
 - [Download](https://github.com/Bananenpro/vscode-embe/releases/latest) the `*.vsix` file.
 - Open the _Extensions_ tab in VS Code.
@@ -14,6 +17,23 @@ Language support for [embe](https://github.com/Bananenpro/embe).
 - Choose _Install from VSIX…_.
 - Select the downloaded file.
 - Hit _Install_.
+
+## Development
+
+- Clone the repository:
+```
+git clone https://github.com/Bananenpro/vscode-embe
+cd vscode-embe
+```
+
+- Install dependencies and open VS Code:
+```
+npm install
+code .
+```
+
+- Press Ctrl+Shift+B to compile the extension in [watch mode](https://code.visualstudio.com/docs/editor/tasks#:~:text=The%20first%20entry%20executes,the%20HelloWorld.js%20file.).
+- Hit F5 to launch a new VS Code window with the extension loaded.
 
 ## License
 

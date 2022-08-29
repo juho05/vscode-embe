@@ -2,15 +2,16 @@
     "name": "embe",
     "displayName": "Embe",
     "description": "Language support for embe.",
-    "version": "0.1.0",
-    "publisher": "Bananenpro",
+    "version": "0.2.0",
+    "publisher": "bananenpro",
+	"author": "Julian Hofmann",
     "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/Bananenpro/vscode-embe"
     },
     "engines": {
-        "vscode": "^1.50.0"
+        "vscode": "^1.63.0"
     },
     "categories": [
         "Programming Languages"
@@ -27,5 +28,25 @@
             "scopeName": "source.embe",
             "path": "./syntaxes/embe.tmLanguage.json"
         }]
-    }
+    },
+	"activationEvents": [
+		"onLanguage:embe"
+	],
+	"main": "./lsp/out/extension",
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -b",
+		"watch": "tsc -b -w",
+		"lint": "eslint ./lsp/src --ext .ts,.tsx",
+		"postinstall": "cd lsp && npm install && cd .."
+	},
+	"devDependencies": {
+		"@types/mocha": "^9.1.0",
+		"@types/node": "^16.11.7",
+		"@typescript-eslint/eslint-plugin": "^5.30.0",
+		"@typescript-eslint/parser": "^5.30.0",
+		"eslint": "^8.13.0",
+		"mocha": "^9.2.1",
+		"typescript": "^4.7.2"
+	}
 }
