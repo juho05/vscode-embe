@@ -2,7 +2,13 @@
     "name": "embe",
     "displayName": "Embe",
     "description": "Language support for embe.",
-    "version": "0.0.1",
+    "version": "0.1.0",
+    "publisher": "Bananenpro",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Bananenpro/vscode-embe"
+    },
     "engines": {
         "vscode": "^1.50.0"
     },
