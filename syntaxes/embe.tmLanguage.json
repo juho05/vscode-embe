@@ -1,0 +1,110 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Embe",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#types"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#constants"
+		},
+		{
+			"include": "#other"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.embe",
+					"match": "\\b(if|elif|else|while|for|var)\\b"
+				},
+				{
+					"name": "keyword.operator.embe",
+					"match": "\\+|-|\\*|/|%|=|<|>|!|\\|\\||&&"
+				}
+			]
+		},
+		"constants": {
+			"patterns": [
+				{
+					"name": "constant.language.embe",
+					"match": "\\b(true|false)\\b"
+				},
+				{
+					"name": "constant.numeric.embe",
+					"match": "\\b\\d+(\\.\\d+)?\\b"
+				}
+			]
+		},
+		"types": {
+			"patterns": [
+				{
+					"name": "storage.type.embe",
+					"match": "\\b(string|number|boolean)\\b"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.embe",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": []
+		},
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.block.embe",
+					"begin": "(\\/\\*)",
+					"beginCaptures": {
+						"1": {
+							"name": "punctuation.definition.comment.embe"
+						}
+					},
+					"end": "(\\*\\/)",
+					"endCaptures": {
+						"1": {
+							"name": "punctuation.definition.comment.embe"
+						}
+					}
+				},
+				{
+					"name": "comment.line.double-slash.embe",
+					"begin": "(\\/\\/)",
+					"beginCaptures": {
+						"1": {
+							"name": "punctuation.definition.comment.embe"
+						}
+					},
+					"end": "(?:\\n|$)"
+				}
+			]
+		},
+		"other": {
+			"patterns": [
+				{
+					"name": "support.function.embe",
+					"match": "@\\w+\\b"
+				},
+				{
+					"name": "variable.other.embe",
+					"match": "(?<=var\\s+)\\w+\\b"
+				},
+				{
+					"name": "entity.name.function.embe",
+					"match": "\\w+(?=\\()"
+				}
+			]
+		}
+	},
+	"scopeName": "source.embe"
+}

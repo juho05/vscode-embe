@@ -1,0 +1,25 @@
+{
+    "name": "embe",
+    "displayName": "Embe",
+    "description": "Language support for embe.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "embe",
+            "aliases": ["Embe", "embe"],
+            "extensions": [".mb"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "embe",
+            "scopeName": "source.embe",
+            "path": "./syntaxes/embe.tmLanguage.json"
+        }]
+    }
+}
