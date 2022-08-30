@@ -5,6 +5,7 @@ Language support for [embe](https://github.com/Bananenpro/embe).
 ## Features
 
 - Syntax highlighting
+- Indentation
 - LSP via [embe-ls](https://github.com/Bananenpro/embe-ls)
 
 ## Installation
