@@ -26,7 +26,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.embe",
-					"match": "\\b(if|elif|else|while|for|var)\\b"
+					"match": "\\b(if|elif|else|while|for|var|const)\\b"
 				},
 				{
 					"name": "keyword.operator.embe",
