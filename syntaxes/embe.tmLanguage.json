@@ -42,7 +42,7 @@
 				},
 				{
 					"name": "constant.numeric.embe",
-					"match": "\\b\\d+(\\.\\d+)?\\b"
+					"match": "\\b(\\d+(\\.\\d+)?|0b[0-1]+|0o[0-7]+|0x[0-9a-fA-F]+)\\b"
 				}
 			]
 		},
