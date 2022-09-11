@@ -97,7 +97,7 @@
 				},
 				{
 					"name": "variable.other.embe",
-					"match": "(?<=var\\s+)\\w+\\b"
+					"match": "(?<=(var|const)\\s+)\\w+\\b"
 				},
 				{
 					"name": "entity.name.function.embe",
