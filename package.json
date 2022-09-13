@@ -2,7 +2,7 @@
     "name": "embe",
     "displayName": "Embe",
     "description": "Language support for embe.",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "publisher": "bananenpro",
     "author": "Julian Hofmann",
     "license": "MIT",
@@ -11,7 +11,7 @@
         "url": "https://github.com/Bananenpro/vscode-embe"
     },
     "engines": {
-        "vscode": "^1.63.0"
+        "vscode": "^1.62.0"
     },
     "categories": [
         "Programming Languages"
