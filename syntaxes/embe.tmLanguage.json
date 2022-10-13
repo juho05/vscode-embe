@@ -50,7 +50,7 @@
 			"patterns": [
 				{
 					"name": "storage.type.embe",
-					"match": "\\b(string|number|boolean)\\b"
+					"match": "\\b(string|number|boolean|image)\\b"
 				}
 			]
 		},
