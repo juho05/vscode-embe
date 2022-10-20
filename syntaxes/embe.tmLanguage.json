@@ -102,6 +102,10 @@
 				{
 					"name": "entity.name.function.embe",
 					"match": "\\w+(?=\\()"
+				},
+				{
+					"name": "keyword.control",
+					"match": "#\\w+"
 				}
 			]
 		}
