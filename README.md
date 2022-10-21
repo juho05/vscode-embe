@@ -10,8 +10,6 @@ Language support for [embe](https://github.com/Bananenpro/embe).
 
 ## Installation
 
-Install [embe-ls](https://github.com/Bananenpro/embe-ls#installation) for LSP features.
-
 - [Download](https://github.com/Bananenpro/vscode-embe/releases/latest) the `*.vsix` file.
 - Open the _Extensions_ tab in VS Code.
 - Press the three dots in the top right corner of the _Extensions_ window.
