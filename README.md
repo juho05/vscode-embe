@@ -6,11 +6,11 @@ Language support for [embe](https://github.com/Bananenpro/embe).
 
 - Syntax highlighting
 - Indentation
-- LSP via [embe-ls](https://github.com/Bananenpro/embe-ls)
+- LSP via [embe-ls](https://github.com/Bananenpro/embe/blob/main/cmd/embe-ls/README.md)
 
 ## Installation
 
-- [Download](https://github.com/Bananenpro/vscode-embe/releases/latest) the `*.vsix` file.
+- [Download](https://github.com/Bananenpro/vscode-embe/releases/latest/download/embe.vsix) the `*.vsix` file.
 - Open the _Extensions_ tab in VS Code.
 - Press the three dots in the top right corner of the _Extensions_ window.
 - Choose _Install from VSIX…_.
