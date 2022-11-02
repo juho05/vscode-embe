@@ -2,7 +2,7 @@
     "name": "embe",
     "displayName": "Embe",
     "description": "Language support for embe.",
-    "version": "0.2.6",
+    "version": "0.4.0",
     "publisher": "bananenpro",
     "author": "Julian Hofmann",
     "license": "MIT",
